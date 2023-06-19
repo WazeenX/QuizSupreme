@@ -62,7 +62,7 @@ public class AboutActivity extends AppCompatActivity {
                 break;
         }
 
-        final String[] strings = {getString(R.string.light), getString(R.string.dark), getString(R.string.set_battery), getString(R.string.system_defualt)};
+        final String[] strings = {getString(R.string.light), getString(R.string.dark), getString(R.string.set_battery), getString(R.string.system_default)};
         darkCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
