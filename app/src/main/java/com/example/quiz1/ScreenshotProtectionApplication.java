@@ -2,7 +2,6 @@ package com.example.quiz1;
 
 import android.app.Activity;
 import android.app.Application;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.WindowManager;
 
@@ -27,8 +26,8 @@ public class ScreenshotProtectionApplication extends Application {
                     WindowManager.LayoutParams.FLAG_SECURE
             );
 
-            // Check if the activity is BasicQuiz or DifficultQuiz
-            if (activity instanceof BasicQuiz || activity instanceof DifficultQuiz) {
+            // Check if the activity is BasicQuiz, DifficultQuiz, or ResultActivity
+            if (activity instanceof BasicQuiz || activity instanceof DifficultQuiz || activity instanceof ResultActivity) {
                 isQuizActivity = true;
             } else {
                 isQuizActivity = false;
@@ -55,10 +54,7 @@ public class ScreenshotProtectionApplication extends Application {
         public void onActivityStopped(Activity activity) {
             ScreenshotProtectionApplication app = (ScreenshotProtectionApplication) activity.getApplication();
             if (app.shouldResetQuiz) {
-                // Reset the quiz and show the homepage
-                Intent intent = new Intent(activity, MainActivity.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
-                activity.startActivity(intent);
+                // Reset the flag to false, do nothing
                 app.shouldResetQuiz = false;
             }
         }
