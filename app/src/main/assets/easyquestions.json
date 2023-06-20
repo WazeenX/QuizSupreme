@@ -1,68 +1,68 @@
 {
   "easyquestions": [
     {
-      "question": "Easy Questions Answer A",
-      "answer1": "A) A",
-      "answer2": "B) B",
-      "answer3": "C) C",
-      "answer4": "D) D",
-      "correct": "A) A"
+      "question": "Who painted the famous artwork 'The Starry Night'?",
+      "answer1": "A) Pablo Picasso",
+      "answer2": "B) Vincent van Gogh",
+      "answer3": "C) Leonardo da Vinci",
+      "answer4": "D) Claude Monet",
+      "correct": "B) Vincent van Gogh"
     },
     {
-      "question": "Easy Questions Answer B",
-      "answer1": "A) A",
-      "answer2": "B) B",
-      "answer3": "C) C",
-      "answer4": "D) D",
-      "correct": "B) B"
+      "question": "What is the capital city of Australia?",
+      "answer1": "A) Sydney",
+      "answer2": "B) Melbourne",
+      "answer3": "C) Canberra",
+      "answer4": "D) Brisbane",
+      "correct": "C) Canberra"
     },
     {
-      "question": "Easy Questions Answer C",
-      "answer1": "A) A",
-      "answer2": "B) B",
-      "answer3": "C) C",
-      "answer4": "D) D",
-      "correct": "C) C"
+      "question": "Who is the author of the Harry Potter book series?",
+      "answer1": "A) J.K. Rowling",
+      "answer2": "B) Roald Dahl",
+      "answer3": "C) Suzanne Collins",
+      "answer4": "D) Stephenie Meyer",
+      "correct": "A) J.K. Rowling"
     },
     {
-      "question": "Easy Questions Answer D",
-      "answer1": "A) A",
-      "answer2": "B) B",
-      "answer3": "C) C",
-      "answer4": "D) D",
-      "correct": "D) D"
+      "question": "In which year did the Berlin Wall fall, leading to the reunification of Germany?",
+      "answer1": "A) 1985",
+      "answer2": "B) 1989",
+      "answer3": "C) 1991",
+      "answer4": "D) 1995",
+      "correct": "B) 1989"
     },
     {
-      "question": "Easy Questions Answer E",
-      "answer1": "A) A",
-      "answer2": "B) B",
-      "answer3": "C) C",
-      "answer4": "D) D",
-      "correct": "A) A"
+      "question": "Which country is home to the ancient ruins of Machu Picchu?",
+      "answer1": "A) Peru",
+      "answer2": "B) Mexico",
+      "answer3": "C) Brazil",
+      "answer4": "D) Egypt",
+      "correct": "A) Peru"
     },
     {
-      "question": "Easy Questions Answer F",
-      "answer1": "A) A",
-      "answer2": "B) B",
-      "answer3": "C) C",
-      "answer4": "D) D",
-      "correct": "B) B"
+      "question": "What is the largest planet in our solar system?",
+      "answer1": "A) Venus",
+      "answer2": "B) Jupiter",
+      "answer3": "C) Saturn",
+      "answer4": "D) Uranus",
+      "correct": "B) Jupiter"
     },
     {
-      "question": "Easy Questions Answer G",
-      "answer1": "A) A",
-      "answer2": "B) B",
-      "answer3": "C) C",
-      "answer4": "D) D",
-      "correct": "C) C"
+      "question": "Who is known as the 'Father of the Computer'?",
+      "answer1": "A) Steve Jobs",
+      "answer2": "B) Bill Gates",
+      "answer3": "C) Alan Turing",
+      "answer4": "D) Charles Babbage",
+      "correct": "D) Charles Babbage"
     },
     {
-      "question": "Easy Questions Answer H",
-      "answer1": "A) A",
-      "answer2": "B) B",
-      "answer3": "C) C",
-      "answer4": "D) D",
-      "correct": "D) D"
+      "question": "Which famous scientist developed the theory of general relativity?",
+      "answer1": "A) Isaac Newton",
+      "answer2": "B) Albert Einstein",
+      "answer3": "C) Nikola Tesla",
+      "answer4": "D) Marie Curie",
+      "correct": "B) Albert Einstein"
     }
   ]
 }

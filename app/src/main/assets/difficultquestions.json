@@ -1,68 +1,68 @@
 {
   "difficultquestions": [
     {
-      "question": "Difficult Questions Answer A",
-      "answer1": "A) A",
-      "answer2": "B) B",
-      "answer3": "C) C",
-      "answer4": "D) D",
-      "correct": "A) A"
+      "question": "Who won the FIFA World Cup in 2018?",
+      "answer1": "A) Brazil",
+      "answer2": "B) Germany",
+      "answer3": "C) France",
+      "answer4": "D) Argentina",
+      "correct": "C) France"
     },
     {
-      "question": "Difficult Questions Answer B",
-      "answer1": "A) A",
-      "answer2": "B) B",
-      "answer3": "C) C",
-      "answer4": "D) D",
-      "correct": "B) B"
+      "question": "Which country has won the most Olympic gold medals in the history of the Summer Olympics?",
+      "answer1": "A) United States",
+      "answer2": "B) Russia",
+      "answer3": "C) Germany",
+      "answer4": "D) China",
+      "correct": "A) United States"
     },
     {
-      "question": "Difficult Questions Answer C",
-      "answer1": "A) A",
-      "answer2": "B) B",
-      "answer3": "C) C",
-      "answer4": "D) D",
-      "correct": "C) C"
+      "question": "Which tennis player has won the most Grand Slam singles titles in the Open Era?",
+      "answer1": "A) Serena Williams",
+      "answer2": "B) Roger Federer",
+      "answer3": "C) Rafael Nadal",
+      "answer4": "D) Margaret Court",
+      "correct": "A) Serena Williams"
     },
     {
-      "question": "Difficult Questions Answer D",
-      "answer1": "A) A",
-      "answer2": "B) B",
-      "answer3": "C) C",
-      "answer4": "D) D",
-      "correct": "D) D"
+      "question": "Who holds the record for the most goals scored in a single NHL season?",
+      "answer1": "A) Wayne Gretzky",
+      "answer2": "B) Mario Lemieux",
+      "answer3": "C) Alexander Ovechkin",
+      "answer4": "D) Brett Hull",
+      "correct": "A) Wayne Gretzky"
     },
     {
-      "question": "Difficult Questions Answer E",
-      "answer1": "A) A",
-      "answer2": "B) B",
-      "answer3": "C) C",
-      "answer4": "D) D",
-      "correct": "A) A"
+      "question": "Who holds the record for the fastest 100-meter sprint in the history of athletics?",
+      "answer1": "A) Usain Bolt",
+      "answer2": "B) Tyson Gay",
+      "answer3": "C) Yohan Blake",
+      "answer4": "D) Asafa Powell",
+      "correct": "A) Usain Bolt"
     },
     {
-      "question": "Difficult Questions Answer F",
-      "answer1": "A) A",
-      "answer2": "B) B",
-      "answer3": "C) C",
-      "answer4": "D) D",
-      "correct": "B) B"
+      "question": "Which boxer is known for having an undefeated professional record of 50-0?",
+      "answer1": "A) Mike Tyson",
+      "answer2": "B) Muhammad Ali",
+      "answer3": "C) Floyd Mayweather Jr.",
+      "answer4": "D) Manny Pacquiao",
+      "correct": "C) Floyd Mayweather Jr."
     },
     {
-      "question": "Difficult Questions Answer G",
-      "answer1": "A) A",
-      "answer2": "B) B",
-      "answer3": "C) C",
-      "answer4": "D) D",
-      "correct": "C) C"
+      "question": "In which sport do teams compete for the Stanley Cup?",
+      "answer1": "A) Ice hockey",
+      "answer2": "B) Basketball",
+      "answer3": "C) American football",
+      "answer4": "D) Baseball",
+      "correct": "A) Ice hockey"
     },
     {
-      "question": "Difficult Questions Answer H",
-      "answer1": "A) A",
-      "answer2": "B) B",
-      "answer3": "C) C",
-      "answer4": "D) D",
-      "correct": "D) D"
+      "question": "Which country has won the most Rugby World Cup titles?",
+      "answer1": "A) Australia",
+      "answer2": "B) South Africa",
+      "answer3": "C) New Zealand",
+      "answer4": "D) England",
+      "correct": "C) New Zealand"
     }
   ]
 }
