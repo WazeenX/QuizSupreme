@@ -14,6 +14,8 @@ import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
+
 
 import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
@@ -121,9 +123,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void signOut() {
         mAuth.signOut();
+        Toast.makeText(MainActivity.this, "Successfully logged out",Toast.LENGTH_SHORT).show();
         startActivity(new Intent(MainActivity.this, LoginActivity.class));
         finish();
     }
+
 
     @Override
     public void onBackPressed() {

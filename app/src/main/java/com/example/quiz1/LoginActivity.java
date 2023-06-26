@@ -37,7 +37,9 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         // Configure Google Sign-In
+        String webClientId = "162499832277-6hh1683okg2qn57bg5vgun52l90ksgbg.apps.googleusercontent.com";
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestIdToken(webClientId)
                 .requestEmail()
                 .build();
 
@@ -76,7 +78,6 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void firebaseAuthWithGoogle(String idToken) {
-
         AuthCredential credential = GoogleAuthProvider.getCredential(idToken, null);
         mAuth.signInWithCredential(credential)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
@@ -85,6 +86,9 @@ public class LoginActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             // Sign in success, update UI with the signed-in user's information
                             FirebaseUser user = mAuth.getCurrentUser();
+                            String email = user.getEmail();
+                            String message = "Successfully logged in as " + email;
+                            Toast.makeText(LoginActivity.this, message, Toast.LENGTH_SHORT).show();
                             // Proceed with your app logic or UI updates
                             navigateToMainActivity();
                         } else {
