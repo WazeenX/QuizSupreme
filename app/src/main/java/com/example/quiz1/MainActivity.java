@@ -22,7 +22,7 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 public class MainActivity extends AppCompatActivity {
 
-    MaterialCardView easycard, difficultcard, aboutcard, joinRoomCard, createRoomCard;
+    MaterialCardView easycard, difficultcard, aboutcard, joinRoomCard, createRoomCard, studentcard, teachercard;
     public static int checked;
     private FirebaseAuth mAuth;
 
@@ -64,8 +64,8 @@ public class MainActivity extends AppCompatActivity {
         easycard = findViewById(R.id.easyCard);
         difficultcard = findViewById(R.id.difficultCard);
         aboutcard = findViewById(R.id.aboutCard);
-        joinRoomCard = findViewById(R.id.joinRoomCard);
-        createRoomCard = findViewById(R.id.createRoomCard);
+        studentcard = findViewById(R.id.studentcard);
+        teachercard = findViewById(R.id.teachercard);
 
         easycard.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -99,11 +99,28 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        aboutcard = findViewById(R.id.aboutCard);
         aboutcard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, AboutActivity.class));
+                finish();
+            }
+        });
+
+        studentcard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // TODO: Handle student card click
+                startActivity(new Intent(MainActivity.this, StudentDashboardActivity.class));
+                finish();
+            }
+        });
+
+        teachercard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // TODO: Handle teacher card click
+                startActivity(new Intent(MainActivity.this, TeacherDashboardActivity.class));
                 finish();
             }
         });
@@ -123,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void signOut() {
         mAuth.signOut();
-        Toast.makeText(MainActivity.this, "Successfully logged out",Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, "Successfully logged out", Toast.LENGTH_SHORT).show();
         startActivity(new Intent(MainActivity.this, LoginActivity.class));
         finish();
     }

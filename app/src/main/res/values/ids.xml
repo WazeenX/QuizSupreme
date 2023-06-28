@@ -7,4 +7,6 @@
     <item name="edit_text_question" type="id" />
     <item name="button_create_quiz" type="id" />
     <item name="button_generate_code" type="id" />
+    <item name="studentcard" type="id" />
+    <item name="teachercard" type="id" />
 </resources>
