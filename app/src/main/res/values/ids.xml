@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="text_view_leaderboard" type="id" />
+    <item name="text_view_score" type="id" />
+    <item name="button_join_quiz" type="id" />
+    <item name="edit_text_code" type="id" />
+    <item name="edit_text_question" type="id" />
+    <item name="button_create_quiz" type="id" />
+    <item name="button_generate_code" type="id" />
+</resources>

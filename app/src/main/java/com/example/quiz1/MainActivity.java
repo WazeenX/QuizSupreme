@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 default1 = 0;
                 break;
             case AppCompatDelegate.MODE_NIGHT_YES:
-                default1 = 0;
+                default1 = 1;
                 break;
             default:
                 default1 = 2;
